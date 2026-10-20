@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alterando textos</title>
+</head>
+<body>
+    <h1 id="batata">sei la quandos site eu ja fiz</h1>
+    <button onclick="mudarTexto()">mudar titulo</button>
+    <button onclick="mudarTextoAFK()">voltar pro original</button>
+    <script>
+         function mudarTexto() {
+            document.getElementById("batata").textContent="agora esta on";
+         }
+         function mudarTextoAFK() {
+            document.getElementById("batata").textContent="sei la quandos site eu ja";
+         }
+    </script>
+
+</body>
+</html>
